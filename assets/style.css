@@ -1,0 +1,143 @@
+/* Document styles */
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+p {
+    margin-bottom: 0;
+}
+
+/* Header styles */
+.navbar {
+    background-color: #2C4251;
+}
+
+.navbar-brand.h1 {
+    color: #66cdaa;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.jumbotron-fluid {
+    padding: 2rem;
+}
+
+/* Timeslot styles */
+.row {
+    height: 50px;
+}
+
+.time {
+    background-color: #2C4251;
+    padding: 15px 5px;
+    text-align: center;
+    margin: auto;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: white;
+}
+
+.time:hover {
+    color: #66cdaa;
+}
+
+.event {
+    background-color: #fafafa;
+    padding: 15px 5px;
+    text-align: left;
+    margin: auto;
+}
+
+.event:hover {
+    font-weight: 500;
+}
+
+.event p:focus {
+    font-weight: 500;
+}
+
+.save {
+    background-color: #66cdaa;
+    padding: 15px 5px;
+    text-align: center;
+    margin: auto;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.save:hover {
+    background-color: #808080;
+}
+
+.save .locked {
+    display: inline-block;
+}
+
+.save .open {
+    display: none;
+}
+
+.save:hover .locked {
+    display: none;
+}
+
+.save:hover .open {
+    display: inline-block;
+}
+
+/* Clear schedule styles */
+.btn-info {
+    margin: 0 auto;
+    display: block;
+    background-color: #2C4251;
+    border-color: #2C4251;
+}
+
+.btn-info:hover {
+    margin: 0 auto;
+    display: block;
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+
+.btn-primary {
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+
+.btn-primary:hover {
+    background-color: #2C4251;
+    border-color: #2C4251;
+}
+
+/* Footer styles */
+.alert-primary {
+    background-color: #2C4251;
+    color: white;
+    border-radius: 0%;
+    border-color: #2C4251;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 0px;
+    height: 30px;
+    width: 100%;
+    opacity: 0.6;
+}
+
+/* Media queries*/
+@media only screen and (max-width: 450px){
+    p {
+        font-size: small;
+    }
+}
